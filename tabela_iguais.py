@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# EXTRAINDO DADOS DE UMA TABELA NA WEV 
 
 html = 'https://tabelatest.netlify.app/'
 resp = requests.get(html)
@@ -27,6 +28,7 @@ for linhas  in tabela.find_all('tr')[1:]:
 print(row_l)
 
 # for th in tabele         
+
 
 
 
